@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>Jorge Courett, Launches Site</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
  <body>
       <nav>
           <ul class="navigation">
               <li><a href="/" 
-                      {% if page.layout == 'home' %}class="active"{% endif %} 
+                       
                      title="Home">Home</a></li>
               <li><a href="/archive" 
-                      {% if page.url contains "archive" %}class="active"{% endif %} 
+                       
                       title="Old Posts">Archive</a></li>
               <li><a href="/about" 
-                      {% if page.url contains "about" %}class="active"{% endif %} 
+                       
                       title="About Me">About</a></li>
           </ul>
       </nav>
       <div class="container">
-          {{ content }}
+          <div class="content">
+  <h1>Jorge Courett, Launches Site</h1>
+<p class="meta">06 May 2016</p>
+
+<div class="post">
+  <p><img src="//farm8.staticflickr.com/7451/9254559408_e1026556da_k.jpg" alt="" />
+This is my first step to get my personal website online using <a href="http://jekyllrb.com">Jekyll</a> at github.</p>
+
+
+</div>
+
+</div>
+
       </div>
       <footer>
           <ul>
