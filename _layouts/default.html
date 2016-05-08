@@ -4,20 +4,18 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
- <body>
-      <nav>
-          <ul class="navigation">
+  <body>
+          <ul class="nav">
               <li><a href="/" 
                       {% if page.layout == 'home' %}class="active"{% endif %} 
                      title="Home">Home</a></li>
               <li><a href="/archive" 
                       {% if page.url contains "archive" %}class="active"{% endif %} 
                       title="Old Posts">Archive</a></li>
-              <li><a href="/about" 
+              <li style="float:right" ><a href="/about" 
                       {% if page.url contains "about" %}class="active"{% endif %} 
                       title="About Me">About</a></li>
           </ul>
-      </nav>
       <div class="container">
           {{ content }}
       </div>

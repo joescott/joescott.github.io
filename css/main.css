@@ -12,23 +12,50 @@ h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+ul.nav, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 
-nav ul.navigation {
-    display: block;
-    text-align: left;
-    float: right;
-    line-height: 0px;
-    margin-top: 35px;
-    font-family: helvetica, sans-serif;
+footer ul li { display: inline; margin-right: 20px; }
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
 }
 
+ul.nav li {
+    float: left;
+    /*border-right:1px solid #bbb;*/
+}
+
+ul.nav li:last-child {
+    border-right: none;
+}
+
+ul.nav li a {
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover:not(.active) {
+    /*background-color: #111;*/
+    color: black;
+}
+
+ul.nav .active {
+    background-color: white;
+    color: black;
+}
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
+
 
 div.breaker { clear:both; }
 
