@@ -5,10 +5,9 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
   <body>
-      {{ page.layout  }} 
           <ul class="nav">
               <li><a href="/" 
-                      {% if page.layout == 'home' %}class="active"{% endif %} 
+                      {% if page.path == 'index.html' %}class="active"{% endif %} 
                      title="Home">Home</a></li>
               <li><a href="/archive" 
                       {% if page.url contains "archive" %}class="active"{% endif %} 
