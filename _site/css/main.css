@@ -62,7 +62,7 @@ div.breaker { clear:both; }
 div.content {
   background:white;
   padding:70px 80px;
-  margin-bottom:60px;
+  margin-bottom:5px;
 }
 div.content.full-bleed {
   padding:0;
