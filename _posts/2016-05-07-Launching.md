@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jorge Courett, Launches Site"
+title: "Launching Site"
 #photo_url: "/img/Octocat.jpg"
 date: 2016-05-07
 ---

@@ -3,7 +3,7 @@
   <title>Jorge Courett</title>
   <link href="http://joescott.github.io/atom.xml" rel="self"/>
   <link href="http://joescott.github.io/"/>
-  <updated>2016-05-08T21:48:22-03:00</updated>
+  <updated>2016-05-08T23:35:18-03:00</updated>
   <id>http://rsms.me/</id>
   <author>
     <name>Jorge Courett</name>
@@ -11,10 +11,10 @@
   </author>
   
   <entry>
-    <title>Jorge Courett, Launches Site</title>
-    <link href="http://joescott.github.io/blog/2016/05/07/Site-launched"/>
+    <title>Launching Site</title>
+    <link href="http://joescott.github.io/blog/2016/05/07/Launching"/>
     <updated>2016-05-07T00:00:00-03:00</updated>
-    <id>http://joescott.github.io/blog/2016/05/07/Site-launched</id>
+    <id>http://joescott.github.io/blog/2016/05/07/Launching</id>
     <content type="html">&lt;p&gt;This is my first step to get my personal website online using &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; at &lt;a href=&quot;https://pages.github.com&quot;&gt;github&lt;/a&gt; pages.
 &lt;img src=&quot;/img/Octocat.jpg&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
 
