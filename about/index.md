@@ -2,11 +2,12 @@
 layout: page
 title: About Jorge Esteban Courett
 ---
-
+<img src="/img/jc.jpg" width="30%" align="right">
 My name is Jorge Courett. I'm from Argentina and I live in Mar del Plata. 
 I had been working with *nix platforms since 2000. From embedded systems to
 multiprocessor servers. Electronic engineer, C programmer, Linux Kernel Developer,
 SysAdmin,... I'm passionate developer, perfectionist and a little bit obsessive.
+
 
 
 
