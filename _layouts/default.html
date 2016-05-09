@@ -10,8 +10,8 @@
                       {% if page.path == 'index.html' %}class="active"{% endif %} 
                      title="Home">Home</a></li>
               <li><a href="/archive" 
-                      {% if page.url contains "archive" %}class="active"{% endif %} 
-                      title="Old Posts">Archive</a></li>
+                      {% if page.url contains "archive" or page.url contains "blog"%}class="active"{% endif %} 
+                      title="Blog">Blog</a></li>
               <li style="float:right" ><a href="/about" 
                       {% if page.url contains "about" %}class="active"{% endif %} 
                       title="About Me">About</a></li>
