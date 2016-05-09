@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
   <body>
+      {{ page.layout  }} 
           <ul class="nav">
               <li><a href="/" 
                       {% if page.layout == 'home' %}class="active"{% endif %} 
