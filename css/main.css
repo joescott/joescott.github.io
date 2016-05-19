@@ -47,8 +47,8 @@ ul.nav li a:hover:not(.active) {
 }
 
 ul.nav .active {
-    background-color: white;
-    color: black;
+    background-color: rgba(0,0,0,0.09);
+    color: #444;
 }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
