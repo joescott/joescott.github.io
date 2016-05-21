@@ -1,9 +1,24 @@
----
-layout: page
-title: Archive
----
-
-<form action="http://www.google.com/cse" id="cse-search-box">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Archive</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  <body>
+          <ul class="nav">
+              <li><a href="/" 
+                       
+                     title="Home">Home</a></li>
+              <li><a href="/archive" 
+                      class="active" 
+                      title="Blog">Blog</a></li>
+              <li style="float:right" ><a href="/about" 
+                       
+                      title="About Me">About</a></li>
+          </ul>
+      <div class="container">
+          <div class="content">
+  <form action="http://www.google.com/cse" id="cse-search-box">
   <p>
     <input type="hidden" name="cx" value="009710826261492699555:mtjendakude" />
     <input type="hidden" name="ie" value="UTF-8" />
@@ -65,9 +80,21 @@ html.ios #cse-search-button {
 </style>
 
 <ul>
-{% for post in site.posts %}
+
   <li>
-    {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
+    May 07, 2016 &mdash; <a href="/blog/2016/05/07/Launching">Launching Site</a>
   </li>
-{% endfor %}
+
 </ul>
+
+</div>
+
+      </div>
+      <footer>
+          <ul>
+              <li><a href="mailto:jorge.courett@gmail.com">email</a></li>
+              <li><a href="https://github.com/joescott">github.com/joescott</a></li>
+          </ul>
+      </footer>
+  </body>
+</html>

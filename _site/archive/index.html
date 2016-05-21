@@ -18,67 +18,29 @@
           </ul>
       <div class="container">
           <div class="content">
-  <form action="http://www.google.com/cse" id="cse-search-box">
-  <p>
-    <input type="hidden" name="cx" value="009710826261492699555:mtjendakude" />
-    <input type="hidden" name="ie" value="UTF-8" />
-    <input type="text" name="q" id="cse-search-field" placeholder="Search ..." />
-    <!--input type="submit" name="sa" value="Search" id="cse-search-button" /-->
-  </p>
-</form>
-<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
-<script type="text/javascript">
-    var search_field = document.getElementById('cse-search-field');
-    search_field.style.background = null;
-    if (window.rsmsHostIsIOS) {
-        search_field.type = 'search';
-    } else {
-        search_field.select();
-        search_field.focus();
-    }
-    search_field.addEventListener('blur', function (ev) {
-            this.style.background = null;
-        });
-</script>
+  <script src="/js/lunr.min.js"></script>
 
-<!--
-    <script>
-(function() {
-    var cx = '009710826261492699555:mtjendakude';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-})();
-    </script>
-<gcse:search></gcse:search>
--->
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/search.js"></script>
 
 <style type="text/css">
-#cse-search-field {
-  width: 70%;
-  font-family: helvetica, sans-serif;
-  padding:0.5em 1em;
-}
-#cse-search-field {
+#search_box{
   border:2px solid black;
   border-radius: 90px;
-}
-#cse-search-field:focus {
-  outline:none;
-  border-color: black;
-}
-html.ios #cse-search-field {
   padding:0.5em 1em;
-  -webkit-appearance: none;
 }
-html.ios #cse-search-button {
+#search_button {
   display: none;
 }
 </style>
 
+<form action="get" id="site_search">
+  <label for="search_box">Search  </label><input type="text" id="search_box" />
+  <input type="submit" value="search" id="search_button" />
+</form>
+
+<ul id="search_results"></ul>
 <ul>
 
   <li>
