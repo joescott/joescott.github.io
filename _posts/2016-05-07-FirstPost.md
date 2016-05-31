@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Launching Site"
+title: "First post"
 #photo_url: "/img/Octocat.jpg"
 date: 2016-05-07
 ---
