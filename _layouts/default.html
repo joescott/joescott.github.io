@@ -16,11 +16,11 @@
                       {% if page.url contains "about" %}class="active"{% endif %} 
                       title="About Me">About</a></li>
           </ul>
-          <!--<div style="position: fixed; top: 0; width: 100%; height: 100%; z-index: -1;">-->
-         <video autoplay  poster="/img/bg_video.png" id="bgvid" loop>
-            <source src="/img/bg_video.mp4" type="video/mp4">
-         </video>
-          <!--</div>-->
+          <div style="position: fixed; top: 0; width: 100%; height: 100%; z-index: -1;">
+            <video autoplay  poster="/img/bg_video.png" id="bgvid" loop>
+                <source src="/img/bg_video.mp4" type="video/mp4">
+            </video>
+          </div>
       <div class="container">
            {{ content }}
       </div>
