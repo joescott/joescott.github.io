@@ -117,7 +117,7 @@ div.content.photo {
     justify-content: flex-start;*/
   }
   div.content code {
-    background-color: #f6f9fa;
+    background-color: #000000;
     color:black;
     /*border: 1px solid #eaeaea;*/
     border-radius: 3px;
