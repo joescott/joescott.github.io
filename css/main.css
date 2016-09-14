@@ -181,7 +181,7 @@ div.posts div.end {
 
 a.post-excerpt {
   display: block;
-  color: inherit;
+  /*color: inherit;*/
   border-bottom: 8px solid #ddd;
 }
   a.post-excerpt div.padded-content {
@@ -277,8 +277,8 @@ a.post-excerpt {
   }
 
   a.post-excerpt:hover {
-    color:black;
-    background-color:#444;
+    color:#fe0;
+    background-color:#111;
     text-decoration:none;
   }
 
