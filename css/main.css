@@ -60,7 +60,7 @@ ul.posts li { list-style: none; }
 div.breaker { clear:both; }
 
 div.content {
-  background:#777777;
+  background:#000000;
   opacity: .9;
   padding:70px 80px;
   margin-bottom:5px;
@@ -117,7 +117,7 @@ div.content.photo {
     justify-content: flex-start;*/
   }
   div.content code {
-    background-color: #000000;
+    background-color: #e00000;
     color:black;
     /*border: 1px solid #eaeaea;*/
     border-radius: 3px;
