@@ -60,7 +60,7 @@ ul.posts li { list-style: none; }
 div.breaker { clear:both; }
 
 div.content {
-  background:#000000;
+  background:rgba(255, 255, 255, 0.75);
   opacity: .9;
   padding:70px 80px;
   margin-bottom:5px;
